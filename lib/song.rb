@@ -45,7 +45,6 @@ class Song
   end 
   
   def self.alphabetical
-    new_arr =[ ]
     var = self.all
     var.sort_by{|x| x.name}
   end 
